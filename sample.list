@@ -1,0 +1,9 @@
+./T22506180516-3514.fastq.gz	43978	Du3514_E30x
+./T22506180517-3557.fastq.gz	46214	Du3557_E30x
+./T22511102034_251106-lig4D-veg-lib.raw.fastq.gz	232375	DuLig4D_E30x
+./34RP6R_1_prp6_1_ts_cells.fastq.gz	66366	prp6ts_E30x
+./Z4CRNT_1_prp6_1_wt_cells.fastq.gz	124280	prp6wt_E30x
+./Y37X2R_1_LT_prp7ts_.fastq.gz	65501	prp7ts_E30x
+./Y37X2R_2_LT_ptp7WT_.fastq.gz	61992	prp7wt_E30x
+./CV6HNK_1_LT_wLid3_.fastq.gz	73883	withLid3_E30x
+./H6MYBD_1_LT_wo_lid3_.fastq.gz	76900	withoutLid3_E30x

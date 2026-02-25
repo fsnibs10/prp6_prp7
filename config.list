@@ -1,0 +1,9 @@
+raw_reads/Du3514_E30x.fq.gz	input/Lcon_v250825_genome.fa	Du3514_E30x
+raw_reads/Du3557_E30x.fq.gz	input/Lcon_v250825_genome.fa	Du3557_E30x
+raw_reads/DuLig4D_E30x.fq.gz	input/Lcon_v250825_genome.fa	DuLig4D_E30x
+raw_reads/prp6ts_E30x.fq.gz	input/Lcon_v250825_genome.fa	prp6ts_E30x
+raw_reads/prp6wt_E30x.fq.gz	input/Lcon_v250825_genome.fa	prp6wt_E30x
+raw_reads/prp7ts_E30x.fq.gz	input/Lcon_v250825_genome.fa	prp7ts_E30x
+raw_reads/prp7wt_E30x.fq.gz	input/Lcon_v250825_genome.fa	prp7wt_E30x
+raw_reads/withLid3_E30x.fq.gz	input/Lcon_v250825_genome.fa	withLid3_E30x
+raw_reads/withoutLid3_E30x.fq.gz	input/Lcon_v250825_genome.fa	withoutLid3_E30x
