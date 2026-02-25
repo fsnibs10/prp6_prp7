@@ -17,7 +17,7 @@ perl step0_1_samtools_get_bed_depth.argv.pl bam_full.list Leupold_chr1_E_gene.be
 sh count_total_bases.sh
 sh seqtk_subreads.sh
 ```
-## mapping with minimap2 for down-sampled reads
+## mapping with minimap2
 ```
 sh run_minimap2.sh
 ```
