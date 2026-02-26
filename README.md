@@ -1,4 +1,4 @@
-# Variant calling for long sequencing reads
+# Variant Calling for Long Sequencing Reads
 
 ## Reads evaluation with NanoComp
 ```
@@ -8,11 +8,11 @@ sh run_nanocomp.sh
 ```
 sh run_minimap2.sh # for total reads mapping
 
-# get the depth of each genes from bed files
+# get the depth of each gene from bed files
 perl step0_1_samtools_get_bed_depth.argv.pl bam_full.list Leupold_chr1_E_gene.bed bamFull.depth  
 ```
 
-## Downsamping reads
+## Downsampling reads
 ```
 sh count_total_bases.sh
 sh seqtk_subreads.sh
@@ -31,7 +31,7 @@ sh run_clair3_2_batchly_sample_model_default_options.sh
 sh run_glnexus.sh
 ```
 
-## Varaint annotation with SnpEff
+## Variant annotation with SnpEff
 ```
 # Input file is the merged vcf
 sh step01_run_snpeff.sh  
