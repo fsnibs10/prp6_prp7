@@ -1,10 +1,10 @@
-# variant calling for long sequencing reads
+# Variant calling for long sequencing reads
 
-## reads evaluation by NanoComp
+## Reads evaluation with NanoComp
 ```
 sh run_nanocomp.sh
 ```
-## calculate the median depth of essential genes on chromosome 1
+## Calculate the median depth of essential genes on chromosome 1
 ```
 sh run_minimap2.sh # for total reads mapping
 
@@ -12,26 +12,26 @@ sh run_minimap2.sh # for total reads mapping
 perl step0_1_samtools_get_bed_depth.argv.pl bam_full.list Leupold_chr1_E_gene.bed bamFull.depth  
 ```
 
-## downsamping reads
+## Downsamping reads
 ```
 sh count_total_bases.sh
 sh seqtk_subreads.sh
 ```
-## mapping with minimap2
+## Mapping with minimap2
 ```
 sh run_minimap2.sh
 ```
-## variant calling with Clair3
+## Variant calling with Clair3
 ```
 sh run_clair3_2_batchly_sample_model_default_options.sh
 ```
 
-## merge gvcf files with Glnexus
+## Merge gvcf files with Glnexus
 ```
 sh run_glnexus.sh
 ```
 
-## varaint annotation with SnpEff
+## Varaint annotation with SnpEff
 ```
 # Input file is the merged vcf
 sh step01_run_snpeff.sh  
